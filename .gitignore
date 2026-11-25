@@ -1,0 +1,10 @@
+# macOS 在图片目录里自动生成的元数据，会把 Finder 的窗口位置之类的东西带进库
+.DS_Store
+._*
+
+# Windows 缩略图缓存
+Thumbs.db
+
+# 编辑器/系统临时文件
+*.swp
+*~

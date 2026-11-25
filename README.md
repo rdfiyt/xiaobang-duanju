@@ -13,9 +13,24 @@ AI 写剧本 → AI 画分镜 → AI 出图 → AI 出视频 → 一键发布抖
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS-2563eb?style=flat-square)](#系统要求)
 [![免费使用](https://img.shields.io/badge/免费使用-注册即送%2030%20天-16a34a?style=flat-square)](#免费与积分)
 [![无需配置大模型](https://img.shields.io/badge/无需配置-开箱即用-f59e0b?style=flat-square)](#三步上手)
-[![群内测](https://img.shields.io/badge/内测群-扫码加入-07c160?style=flat-square)](#加入内测群)
+[![交流群](https://img.shields.io/badge/交流群-扫码加入-07c160?style=flat-square)](#遇到问题--想聊两句)
+
+<br />
+
+### ⬇️ [**点这里下载最新版 1.4.0**](https://github.com/rdfiyt/xiaobang-duanju/releases/latest)
+
+Windows 10/11 · macOS（Intel / Apple 芯片都有）
 
 </div>
+
+> **⚠️ 首次打开会被系统拦一下，这是正常的**
+>
+> 软件还没买苹果和微软的开发者证书（一年 $99 + 几百元），所以：
+>
+> - **macOS**：右键点图标 →「打开」→ 再点「打开」。只需要一次。
+> - **Windows**：点「更多信息」→「仍要运行」。只需要一次。
+>
+> 这不是报毒，是系统对所有个人开发者的统一待遇。介意的话可以等我们攒够钱买证书。
 
 ---
 
@@ -197,13 +212,33 @@ AI 写剧本 → AI 画分镜 → AI 出图 → AI 出视频 → 一键发布抖
 
 ---
 
+## 下载安装
+
+**最新版本：1.4.0**（2026-11-25 发布）
+更新内容：3D 真人画风预设、失败上报带现场、创作模板服务端下发、流水时间戳时区修复
+
+| 你的电脑 | 下载 |
+| --- | --- |
+| Windows 10 / 11（64 位） | [小邦短剧-1.4.0-setup.exe](https://github.com/rdfiyt/xiaobang-duanju/releases/latest) |
+| macOS · Apple 芯片（M1/M2/M3/M4） | [小邦短剧-1.4.0-arm64.dmg](https://github.com/rdfiyt/xiaobang-duanju/releases/latest) |
+| macOS · Intel 芯片 | [小邦短剧-1.4.0.dmg](https://github.com/rdfiyt/xiaobang-duanju/releases/latest) |
+
+> 不确定自己是什么芯片？点左上角苹果标志 →「关于本机」，
+> 看到「芯片」两个字就是 Apple 芯片，看到「处理器 Intel」就下 Intel 版。
+
+**GitHub 下载慢的话，用网盘**：[123 云盘备用下载](https://1823117179.share.123pan.cn/123pan/Z3Dwjv-FInp3)
+
+安装包约 130~155 MB。装完打开，按下面三步走。
+
+---
+
 ## 三步上手
 
 > 全程不超过 10 分钟，不需要任何技术背景。
 
-### 第一步：注册（免费送 30 天）
+### 第一步：装好，注册（免费送 30 天）
 
-打开软件 → 点「注册」→ 填用户名、手机号、密码。
+先从上面「[下载安装](#下载安装)」下好装好，打开软件 → 点「注册」→ 填用户名、手机号、密码。
 **不需要绑卡，不需要付钱，注册完就能进主界面。**
 
 ![免费注册](docs/github/09-signup.png)
@@ -356,28 +391,29 @@ macOS 版本没有做苹果开发者签名，第一次打开会弹「Apple 无�
 
 | 项目 | 最低要求 |
 | --- | --- |
-| 操作系统 | Windows 10 64 位 / macOS 11+ |
+| 操作系统 | Windows 10 / 11（64 位） / macOS 11+ |
 | 内存 | 8 GB（推荐 16 GB） |
 | 磁盘 | 安装包 130~160 MB；成片会持续占用，建议预留 20 GB+ |
 | 网络 | 需要能正常访问豆包 |
 
 ---
 
-## 加入内测群
+## 遇到问题 / 想聊两句
 
-安装包、更新、使用问题、功能建议，都在群里。
+**装不上、报错、有功能建议** → [提个 Issue](https://github.com/rdfiyt/xiaobang-duanju/issues)，我们都会看。
+
+**想直接问人** → 加微信群，有问题群里问，更新也会在群里说。
 
 <div align="center">
 
-<img src="docs/github/wechat-group.jpg" width="260" alt="扫码加入 AI 小邦短剧内测群" />
+<img src="docs/github/wechat-group.jpg" width="260" alt="扫码加入 AI 小邦短剧交流群" />
 
-**微信群：AI 小邦短剧【内测】**
-
-扫码加入，群内获取最新安装包与一对一指导。
+**微信群：AI 小邦短剧【交流】**
 
 </div>
 
-> 二维码 7 天有效，过期请提 Issue 或在 Discussions 留言，我们会更新。
+> 群二维码 7 天有效。过期了就在 Issue 里说一声，我们换一张。
+> **下载不用进群** —— 上面「下载安装」那一节就是最新版，随时能下。
 
 ---
 
@@ -397,7 +433,7 @@ macOS 版本没有做苹果开发者签名，第一次打开会弹「Apple 无�
 浏览器自动化基于 CDP 直连，后端只监听 `127.0.0.1`，数据全部存在本机。
 
 **关于源码**：本项目为闭源商业软件，本仓库只用于发布产品介绍、界面截图与更新公告，
-不含源码。软件可免费下载试用，商业使用与二次分发请先联系我们（见上方内测群）。
+不含源码。软件可免费下载试用，商业使用与二次分发请先联系我们（见上方交流群）。
 
 发现 Bug 或有功能建议，欢迎提 Issue；我们会在这个仓库同步版本更新说明。
 
