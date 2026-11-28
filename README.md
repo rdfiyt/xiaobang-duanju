@@ -17,7 +17,7 @@ AI 写剧本 → AI 画分镜 → AI 出图 → AI 出视频 → 一键发布抖
 
 <br />
 
-### ⬇️ [**点这里下载最新版 1.4.0**](https://github.com/rdfiyt/xiaobang-duanju/releases/latest)
+### ⬇️ [**点这里下载最新版 1.4.2**](https://1823117179.share.123pan.cn/123pan/Z3Dwjv-FInp3)
 
 Windows 10/11 · macOS（Intel / Apple 芯片都有）
 
@@ -213,21 +213,30 @@ Windows 10/11 · macOS（Intel / Apple 芯片都有）
 
 ## 下载安装
 
-**最新版本：1.4.0**（2026-11-25 发布）
-更新内容：3D 真人画风预设、失败上报带现场、创作模板服务端下发、流水时间戳时区修复
+**最新版本：1.4.2**（2026-11-28 发布）
+更新内容：每集时长按内容浮动、分镜机位句不再被丢、首帧接力真正跑通、音色锁定六项每组都写进提示词
 
-| 你的电脑 | 下载 |
+**下载页：[123 云盘](https://1823117179.share.123pan.cn/123pan/Z3Dwjv-FInp3)**（三个平台的安装包都在这个页面里）
+
+| 你的电脑 | 下载哪个文件 |
 | --- | --- |
-| Windows 10 / 11（64 位） | [小邦短剧-1.4.0-setup.exe](https://github.com/rdfiyt/xiaobang-duanju/releases/latest) |
-| macOS · Apple 芯片（M1/M2/M3/M4） | [小邦短剧-1.4.0-arm64.dmg](https://github.com/rdfiyt/xiaobang-duanju/releases/latest) |
-| macOS · Intel 芯片 | [小邦短剧-1.4.0.dmg](https://github.com/rdfiyt/xiaobang-duanju/releases/latest) |
+| Windows 10 / 11（64 位） | `小邦短剧-1.4.2-setup.exe` |
+| macOS · Apple 芯片（M1/M2/M3/M4） | `小邦短剧-1.4.2-arm64.dmg` |
+| macOS · Intel 芯片 | `小邦短剧-1.4.2.dmg` |
 
 > 不确定自己是什么芯片？点左上角苹果标志 →「关于本机」，
 > 看到「芯片」两个字就是 Apple 芯片，看到「处理器 Intel」就下 Intel 版。
 
-**GitHub 下载慢的话，用网盘**：[123 云盘备用下载](https://1823117179.share.123pan.cn/123pan/Z3Dwjv-FInp3)
-
 安装包约 130~155 MB。装完打开，按下面三步走。
+
+**核对下载是否完整**（可选）：在下载目录里执行 `shasum -a 256 文件名`，
+和下面的值逐字比对。
+
+| 文件 | SHA-256 |
+| --- | --- |
+| `小邦短剧-1.4.2-arm64.dmg` | `1f83681d5c42232485be1292321fd5d17605e81aa80b531172518c01134ec379` |
+| `小邦短剧-1.4.2.dmg` | `1a42179b0944cfa58ee77a141b30ba44702a2ed0ff756acbc46268297204e19e` |
+| `小邦短剧-1.4.2-setup.exe` | `b641329b27e4d8734e94368c1cd1bfb00baa69ccdc771cd2c932da8d98552bda` |
 
 ---
 
